@@ -59,10 +59,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void showProgressBar() {
         // TODO: Implement this method
+		mProgressBar.setVisibility(View.VISIBLE);
     }
 
     public void hideProgressBar() {
         // TODO: Implement this method
+		mProgressBar.setVisibility(View.INVISIBLE);
     }
 
     @Override
